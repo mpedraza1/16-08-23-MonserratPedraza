@@ -1,0 +1,26 @@
+ 1 try { . "c:\Users\LENOVO\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\...
+   2 git init
+   3 git add .
+   4 git commit -m "commit 01 de MonserratPedraza"
+   5 git remote add origin https://github.com/mpedraza1/16-08-23-MonserratPedraza.git
+   6 git add .
+   7 git commit -m "commit 01 de MonserratPedraza"
+   8 git push -u origin main
+   9 git branch feature
+  10 git checkout feature
+  11 cd Hardware
+  12 touch resumen.txt
+  13 cd .
+  14 cd ..
+  15 git push -u feature
+  16 git push
+  17 git push origin feature
+  18 git add .
+  19 git commit -m "commit 02 de MonserratPedraza"
+  20 git push origin feature
+  21 git checkout main
+  22 index.html rm resumenSoftware.txt
+  23 index.html mv resumenSoftware.txt
+  24 mv index.html resumenSoftware.txt
+  25 mv main.js resumenHardware.txt
+  26 touch comandos.txt
